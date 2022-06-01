@@ -9,17 +9,7 @@
     "start": "cd server && npm install && npm run start",
     "build": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/georgesimos/cinema-plus.git"
-  },
   "keywords": [],
-  "author": "George Simos <georgesimos.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/georgesimos/cinema-plus/issues"
-  },
-  "homepage": "https://github.com/georgesimos/cinema-plus#readme",
   "devDependencies": {
     "eslint": "^6.1.0",
     "eslint-config-airbnb": "^18.0.1",
