@@ -40,6 +40,7 @@ router.post('/movies/photo/:id',upload('movies').single('file'),
   }
 );
 
+
 // Get all movies
 router.get('/movies', async (req, res) => {
   try {
