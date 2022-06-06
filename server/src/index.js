@@ -23,6 +23,7 @@ const port = process.env.PORT || 5000;
 app.use(express.static(path.join(__dirname, '../../../client/build')));
 app.use('/uploads', express.static(path.join(__dirname, '../uploads')));
 
+
 app.use(function(req, res, next) {
   // Website you wish to allow to connect
   res.setHeader('Access-Control-Allow-Origin', '*');
